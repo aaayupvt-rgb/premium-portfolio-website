@@ -15,7 +15,7 @@ const clients = [
 
 export default function Clients() {
   return (
-    <section className="border-t border-black/10 py-20 md:py-40 overflow-hidden">
+    <section className="overflow-hidden py-20 md:py-40">
       <div className="mx-auto max-w-7xl px-6">
         <SectionLabel>
           Selected Collaborations
@@ -47,6 +47,7 @@ export default function Clients() {
                   h-12
                   w-auto
                   object-contain
+                  invert
                   opacity-70
                   transition-all
                   duration-300

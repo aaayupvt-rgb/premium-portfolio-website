@@ -16,12 +16,12 @@ export default function Toolkit() {
   return (
     <section
       id="toolkit"
-      className="border-t border-black/10 py-20 md:py-32"
+      className="py-20 md:py-32"
     >
       <Container>
         <FadeIn>
 
-          <p className="mb-12 text-xs uppercase tracking-[0.35em] text-neutral-400">
+          <p className="mb-12 text-xs uppercase tracking-[0.35em] text-neutral-500">
             Toolkit
           </p>
 

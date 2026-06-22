@@ -1,96 +1,121 @@
 import Container from "@/components/shared/Container";
 import RevealText from "@/components/shared/RevealText";
+import TypewriterWord from "@/components/shared/TypewriterWord";
 
 export default function Hero() {
   return (
     <section className="flex min-h-screen items-center pt-20 md:pt-32">
       <Container>
-        <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
 
-          {/* LEFT COLUMN */}
-          <div className="lg:col-span-8">
+        <div className="flex flex-col items-center text-center">
 
-            <RevealText>
-              <h1 className="max-w-5xl text-[42px] font-semibold leading-[0.95] tracking-[-0.09em] sm:text-[56px] md:text-[96px] lg:text-[140px]">
-                INVISIBLE
-                <br />
-                THOUGHTS.
-                <br />
-                VISIBLE
-                <br />
+          <RevealText>
 
-                <span className="text-[#FF4301]">
-                  RESULTS.
+            <h1
+              className="
+                font-semibold
+                leading-[0.9]
+                tracking-[-0.07em]
+
+                text-[52px]
+                md:text-[88px]
+                lg:text-[120px]
+              "
+            >
+              <span className="block whitespace-nowrap">
+                INVISIBLE THOUGHTS.
+              </span>
+
+              <span className="block whitespace-nowrap mt-2">
+                VISIBLE{" "}
+
+                <span
+                  className="
+                    inline-block
+                    min-w-[8ch]
+                    text-left
+                    text-[#FF4301]
+                  "
+                >
+                  <TypewriterWord />
                 </span>
-              </h1>
-            </RevealText>
 
-            <div className="mt-8 flex flex-wrap gap-2 md:mt-12 md:gap-3">
-
-              <span className="rounded-full border border-black/10 px-3 py-2 text-xs md:px-4 md:text-sm">
-                Brand Identity
               </span>
+            </h1>
 
-              <span className="rounded-full border border-black/10 px-3 py-2 text-xs md:px-4 md:text-sm">
-                Campaign Systems
-              </span>
+          </RevealText>
 
-              <span className="rounded-full border border-black/10 px-3 py-2 text-xs md:px-4 md:text-sm">
-                Automation
-              </span>
+          {/* Tags */}
 
-            </div>
+          <div className="mt-10 flex flex-wrap justify-center gap-3 md:mt-14">
 
-            <div className="mt-6 h-px w-24 bg-black/10 md:mt-16" />
+            <span
+              className="
+                rounded-full
+                border
+                border-white/10
+                px-4
+                py-2
+                text-sm
+              "
+            >
+              Brand Identity
+            </span>
 
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-neutral-500 md:mt-10 md:text-lg">
-              I design communication systems,
-              brand experiences and intelligent
-              workflows that help businesses grow.
-            </p>
+            <span
+              className="
+                rounded-full
+                border
+                border-white/10
+                px-4
+                py-2
+                text-sm
+              "
+            >
+              Campaign Systems
+            </span>
+
+            <span
+              className="
+                rounded-full
+                border
+                border-white/10
+                px-4
+                py-2
+                text-sm
+              "
+            >
+              Automation
+            </span>
 
           </div>
 
-          {/* RIGHT COLUMN */}
-          <div className="lg:col-span-4">
+          {/* Divider */}
 
-            <div className="mt-4 space-y-8 lg:mt-0">
+          <div className="mt-16 h-px w-24 bg-white/10" />
 
-              <div>
-                <p className="text-[10px] uppercase tracking-[0.3em] text-neutral-400">
-                  Location
-                </p>
+          {/* Paragraph */}
 
-                <p className="mt-2 text-sm">
-                  India
-                </p>
-              </div>
+          <p
+            className="
+              mx-auto
+              mt-10
+              max-w-2xl
+              text-center
+              text-base
+              leading-relaxed
+              text-neutral-300
 
-              <div>
-                <p className="text-[10px] uppercase tracking-[0.3em] text-neutral-400">
-                  Focus
-                </p>
-
-                <p className="mt-2 text-sm">
-                  Branding + Automation
-                </p>
-              </div>
-
-              <div>
-                <p className="text-[10px] uppercase tracking-[0.3em] text-neutral-400">
-                  Available
-                </p>
-
-                <p className="mt-2 text-sm">
-                  Freelance & Consulting
-                </p>
-              </div>
-
-            </div>
-
-          </div>
+              md:text-lg
+            "
+          >
+            I design communication systems,
+            brand experiences and intelligent
+            workflows that help businesses grow.
+          </p>
 
         </div>
+
       </Container>
     </section>
   );

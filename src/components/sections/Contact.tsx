@@ -3,12 +3,12 @@ import FadeIn from "@/components/shared/FadeIn";
 export default function Contact() {
   return (
     <FadeIn>
-      <section className="bg-black py-24 md:py-48 text-white">
+      <section className="bg-black py-24 text-white md:py-48">
         <div className="mx-auto max-w-7xl px-6">
 
           <div className="max-w-5xl">
 
-            <p className="mb-8 text-xs uppercase tracking-[0.35em] text-white/40">
+            <p className="mb-8 text-xs uppercase tracking-[0.35em] text-white/50">
               Contact
             </p>
 
@@ -20,7 +20,7 @@ export default function Contact() {
               Impossible To Ignore?
             </h2>
 
-            <p className="mt-10 max-w-xl text-lg leading-relaxed text-white/60">
+            <p className="mt-10 max-w-xl text-lg leading-relaxed text-white/70">
               Available for branding, creative systems,
               automation workflows, campaign design,
               and long-term collaborations.
@@ -33,7 +33,7 @@ export default function Contact() {
                 inline-block
                 text-2xl
                 font-medium
-                text-white/80
+                text-white/85
                 transition-all
                 duration-300
                 hover:text-blue-400
@@ -42,7 +42,7 @@ export default function Contact() {
               aaayujpg@gmail.com
             </a>
 
-            <div className="mt-16 h-px w-32 bg-white/10" />
+            <div className="mt-16 h-px w-32 bg-white/15" />
 
            <div className="mt-12 flex items-center gap-6">
 
@@ -52,7 +52,7 @@ export default function Contact() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Behance"
-    className="text-white/50 transition-all duration-300 hover:text-[#FF4301] hover:-translate-y-1"
+    className="text-white/60 transition-all duration-300 hover:text-[#FF4301] hover:-translate-y-1"
   >
     <svg
       viewBox="0 0 24 24"
@@ -69,7 +69,7 @@ export default function Contact() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="LinkedIn"
-    className="text-white/50 transition-all duration-300 hover:text-[#FF4301] hover:-translate-y-1"
+    className="text-white/60 transition-all duration-300 hover:text-[#FF4301] hover:-translate-y-1"
   >
     <svg
       viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ export default function Contact() {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
-    className="text-white/50 transition-all duration-300 hover:text-[#FF4301] hover:-translate-y-1"
+    className="text-white/60 transition-all duration-300 hover:text-[#FF4301] hover:-translate-y-1"
   >
     <svg
       viewBox="0 0 24 24"

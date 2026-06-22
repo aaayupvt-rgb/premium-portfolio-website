@@ -35,7 +35,7 @@ export default function Experience() {
     <FadeIn>
     <section
       id="experience"
-      className="border-t border-black/10 py-24 md:py-48"
+      className="py-24 md:py-48"
     >
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-20">
@@ -48,7 +48,7 @@ export default function Experience() {
           {experience.map((item) => (
             <div
               key={item.company}
-              className="grid gap-8 border-b border-black/10 pb-12 lg:grid-cols-12"
+              className="grid gap-8 pb-12 lg:grid-cols-12"
             >
               <div className="lg:col-span-5">
                 <h3 className="text-3xl font-semibold tracking-[-0.03em]">
@@ -57,7 +57,7 @@ export default function Experience() {
               </div>
 
               <div className="lg:col-span-7">
-                <div className="grid gap-3 text-neutral-600">
+                <div className="grid gap-3 text-neutral-300">
                   {item.focus.map((point) => (
                     <p key={point}>{point}</p>
                   ))}

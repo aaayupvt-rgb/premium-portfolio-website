@@ -6,10 +6,10 @@
   --font-heading: sans-serif;
   --font-body: sans-serif;
 
-  --background: #ffffff;
-  --foreground: #0a0a0a;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
 
-  --muted: #6b7280;
+  --muted: #a1a1aa;
 
   --accent: #3b82f6;
 }
@@ -35,8 +35,8 @@ h6 {
 }
 
 ::selection {
-  background: #3b82f6;
-  color: white;
+  background: #ffffff;
+  color: #0a0a0a;
 }
 
 @keyframes marquee {

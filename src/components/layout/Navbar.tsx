@@ -35,7 +35,7 @@ export default function Navbar() {
           duration-500
           ${
             scrolled
-              ? "border-b border-black/5 bg-white/80 backdrop-blur-xl"
+              ? "border-b border-white/10 bg-black/80 backdrop-blur-xl"
               : "bg-transparent"
           }
         `}
@@ -63,16 +63,25 @@ export default function Navbar() {
             <nav className="hidden gap-12 text-sm md:flex">
 
               <a
-                href="https://www.behance.net/ayushpatidar14"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
                 className="
                   transition-colors
                   duration-300
                   hover:text-[#FF4301]
                 "
               >
-                Portfolio
+                Home
+              </a>
+
+              <a
+                href="#about"
+                className="
+                  transition-colors
+                  duration-300
+                  hover:text-[#FF4301]
+                "
+              >
+                About
               </a>
 
               <a
@@ -87,14 +96,16 @@ export default function Navbar() {
               </a>
 
               <a
-                href="#toolkit"
+                href="https://www.behance.net/ayushpatidar14"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="
                   transition-colors
                   duration-300
                   hover:text-[#FF4301]
                 "
               >
-                Toolkit
+                Portfolio
               </a>
 
             </nav>
@@ -114,7 +125,7 @@ export default function Navbar() {
                 className={`
                   h-[2px]
                   w-6
-                  bg-black
+                  bg-white
                   transition-all
                   duration-300
                   ${
@@ -129,7 +140,7 @@ export default function Navbar() {
                 className={`
                   h-[2px]
                   w-6
-                  bg-black
+                  bg-white
                   transition-all
                   duration-300
                   ${
@@ -144,7 +155,7 @@ export default function Navbar() {
                 className={`
                   h-[2px]
                   w-6
-                  bg-black
+                  bg-white
                   transition-all
                   duration-300
                   ${
@@ -164,17 +175,17 @@ export default function Navbar() {
                 md:block
                 rounded-full
                 border
-                border-black/10
+                border-white/10
                 px-6
                 py-3
                 text-sm
                 transition-all
                 duration-300
-                hover:bg-black
-                hover:text-[#FF4301]
+                hover:bg-white
+                hover:text-black
               "
             >
-              Let's Talk
+              Let&apos;s Talk
             </a>
 
           </div>
@@ -187,11 +198,10 @@ export default function Navbar() {
           fixed
           inset-0
           z-40
-          bg-white
+          bg-black
           transition-all
           duration-500
           md:hidden
-
           ${
             menuOpen
               ? "pointer-events-auto opacity-100"
@@ -202,19 +212,31 @@ export default function Navbar() {
         <div className="flex h-full flex-col justify-center px-10">
 
           <a
-            href="https://www.behance.net/ayushpatidar14"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
             onClick={() => setMenuOpen(false)}
             className="
               border-b
-              border-black/10
+              border-white/10
               py-6
               text-4xl
               tracking-[-0.04em]
             "
           >
-            Portfolio
+            Home
+          </a>
+
+          <a
+            href="#about"
+            onClick={() => setMenuOpen(false)}
+            className="
+              border-b
+              border-white/10
+              py-6
+              text-4xl
+              tracking-[-0.04em]
+            "
+          >
+            About
           </a>
 
           <a
@@ -222,7 +244,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(false)}
             className="
               border-b
-              border-black/10
+              border-white/10
               py-6
               text-4xl
               tracking-[-0.04em]
@@ -232,17 +254,19 @@ export default function Navbar() {
           </a>
 
           <a
-            href="#toolkit"
+            href="https://www.behance.net/ayushpatidar14"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
             className="
               border-b
-              border-black/10
+              border-white/10
               py-6
               text-4xl
               tracking-[-0.04em]
             "
           >
-            Toolkit
+            Portfolio
           </a>
 
           <a
@@ -254,7 +278,7 @@ export default function Navbar() {
               text-[#FF4301]
             "
           >
-            Let's Talk
+            Let&apos;s Talk
           </a>
 
         </div>

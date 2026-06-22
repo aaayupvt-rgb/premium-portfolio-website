@@ -2,7 +2,7 @@ import FadeIn from "@/components/shared/FadeIn";
 
 export default function Portfolio() {
   return (
-    <section className="border-t border-black/10 py-48">
+    <section className="py-48">
       <div className="mx-auto max-w-5xl px-6 text-center">
 
         <FadeIn>
@@ -12,7 +12,7 @@ export default function Portfolio() {
   Full Portfolio
 </h2>
 
-          <p className="mt-8 text-lg text-neutral-500">
+            <p className="mt-8 text-lg text-neutral-300">
   Browse selected branding,
   campaign design,
   communication systems,
@@ -28,7 +28,7 @@ export default function Portfolio() {
               inline-flex
               rounded-full
               border
-              border-black
+              border-white
               px-8
               py-4
               text-sm
@@ -36,8 +36,8 @@ export default function Portfolio() {
               tracking-[0.2em]
               transition-all
               duration-300
-              hover:bg-black
-              hover:text-white
+              hover:bg-white
+              hover:text-black
             "
           >
             Explore Full Portfolio →

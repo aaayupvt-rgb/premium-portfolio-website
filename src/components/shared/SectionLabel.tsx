@@ -10,7 +10,7 @@ export default function SectionLabel({
         text-xs
         uppercase
         tracking-[0.35em]
-        text-neutral-400
+        text-neutral-500
       "
       >
         {children}

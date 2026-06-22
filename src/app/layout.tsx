@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${headingFont.variable} ${bodyFont.variable} bg-white text-black antialiased`}
+        className={`${headingFont.variable} ${bodyFont.variable} bg-black text-white antialiased`}
       >
         <SmoothScroll />
         {children}

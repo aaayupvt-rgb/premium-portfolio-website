@@ -1,36 +1,33 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
-import Story from "@/components/sections/Story";
+import About from "@/components/sections/About";
+import Toolkit from "@/components/sections/Toolkit";
+import Clients from "@/components/sections/Clients";
 import Experience from "@/components/sections/Experience";
+import Portfolio from "@/components/sections/Portfolio";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
-import Approach from "@/components/sections/Approach";
-import Clients from "@/components/sections/Clients";
-import Portfolio from "@/components/sections/Portfolio";
-import Toolkit from "@/components/sections/Toolkit";
 
 export default function HomePage() {
   return (
-   <>
-  <Navbar />
+    <>
+      <Navbar />
 
-  <Hero />
-   
-  <Toolkit />
+      <Hero />
 
-  <Story />
+      <About />
 
-  <Clients />
+      <Toolkit />
 
-  <Approach />
+      <Clients />
 
-  <Experience />
+      <Experience />
 
-  <Portfolio />
-   
-  <Contact />
+      <Portfolio />
 
-  <Footer />
-</>
+      <Contact />
+
+      <Footer />
+    </>
   );
 }
