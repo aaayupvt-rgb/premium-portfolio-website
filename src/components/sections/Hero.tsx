@@ -12,36 +12,35 @@ export default function Hero() {
           <RevealText>
 
             <h1
-              className="
-                font-semibold
-                leading-[0.9]
-                tracking-[-0.07em]
+  className="
+    font-semibold
+    leading-[0.9]
+    tracking-[-0.07em]
 
-                text-[52px]
-                md:text-[88px]
-                lg:text-[120px]
-              "
-            >
-              <span className="block whitespace-nowrap">
-                INVISIBLE THOUGHTS.
-              </span>
+    text-[15vw]
+    sm:text-[13vw]
+    md:text-[88px]
+    lg:text-[120px]
+  "
+>
+  <span className="block">
+    INVISIBLE THOUGHTS.
+  </span>
 
-              <span className="block whitespace-nowrap mt-2">
-                VISIBLE{" "}
+  <span className="block mt-2">
+    VISIBLE{" "}
 
-                <span
-                  className="
-                    inline-block
-                    min-w-[8ch]
-                    text-left
-                    text-[#FF4301]
-                  "
-                >
-                  <TypewriterWord />
-                </span>
+    <span
+      className="
+        inline-block
+        text-[#FF4301]
+      "
+    >
+      <TypewriterWord />
+    </span>
 
-              </span>
-            </h1>
+  </span>
+</h1>
 
           </RevealText>
 
