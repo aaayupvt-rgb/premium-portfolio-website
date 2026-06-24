@@ -29,7 +29,7 @@ export default function About() {
             <div className="lg:col-span-5">
 
               <p className="text-lg leading-relaxed text-neutral-300">
-                I&apos;m Aayush Patidar, a visual designer focused on
+                <span className="text-[#FF4301]">I&apos;m Aayush Patidar, a visual designer</span> focused on
                 building brand systems, campaign ecosystems,
                 communication frameworks and automation workflows
                 that help businesses grow with clarity and consistency.
