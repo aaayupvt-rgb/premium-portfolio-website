@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import SmoothScroll from "@/components/shared/SmoothScroll";
+import PageLoader from "@/components/shared/PageLoader";
 import { headingFont, bodyFont } from "@/lib/fonts";
 
 export const metadata: Metadata = {
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${headingFont.variable} ${bodyFont.variable} bg-black text-white antialiased`}
       >
+        <PageLoader />
         <SmoothScroll />
         {children}
       </body>

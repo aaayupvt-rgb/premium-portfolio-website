@@ -7,6 +7,10 @@ export default function Footer() {
           <p className="text-sm text-neutral-500">
             © 2026 Ayush Patidar. All rights reserved.
           </p>
+          <p className="mt-1 text-xs text-neutral-700">
+            Designed & Built by{" "}
+            <span className="text-[#FF4301]">Ayush Patidar</span>
+          </p>
         </div>
 
         <div className="flex gap-8 text-sm text-neutral-400">

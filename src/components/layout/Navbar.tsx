@@ -31,7 +31,7 @@ export default function Navbar() {
               href="#home"
               className="text-sm font-semibold uppercase tracking-[0.3em] transition-all duration-300 hover:text-[#FF4301]"
             >
-              AYUSH PATIDAR
+              VISUAL BY AYUSH
             </a>
 
             {/* Desktop Navigation */}
