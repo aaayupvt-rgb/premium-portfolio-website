@@ -5,6 +5,9 @@ import { useEffect, useState } from "react";
 const words = [
   "DESIGNS.",
   "RESULTS.",
+  "SYSTEMS.",
+  "BRANDS.",
+  "IMPACT.",
 ];
 
 export default function TypewriterWord() {
@@ -21,29 +24,16 @@ export default function TypewriterWord() {
       timeout = setTimeout(() => {
         setDeleting(true);
       }, 3500);
-    }
-
-    else if (deleting && text === "") {
+    } else if (deleting && text === "") {
       setDeleting(false);
-
-      setWordIndex(
-        (prev) => (prev + 1) % words.length
-      );
-    }
-
-    else {
+      setWordIndex((prev) => (prev + 1) % words.length);
+    } else {
       timeout = setTimeout(
         () => {
           setText((prev) =>
             deleting
-              ? currentWord.slice(
-                  0,
-                  prev.length - 1
-                )
-              : currentWord.slice(
-                  0,
-                  prev.length + 1
-                )
+              ? currentWord.slice(0, prev.length - 1)
+              : currentWord.slice(0, prev.length + 1)
           );
         },
         deleting ? 60 : 120
