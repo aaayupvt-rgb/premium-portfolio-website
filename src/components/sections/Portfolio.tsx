@@ -50,7 +50,7 @@ export default function Portfolio() {
           >
             Explore The
             <br />
-            Full Portfolio
+            Portfolio
           </h2>
 
           <p
@@ -87,7 +87,7 @@ export default function Portfolio() {
               hover:text-black
             "
           >
-            Explore Full Portfolio →
+            Explore Portfolio →
           </a>
 
         </FadeIn>
